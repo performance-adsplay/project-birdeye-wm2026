@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Webmotors · Resumo executivo de performance · Caliber 3135</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFFFFF;--ink:#111111;--body:#374151;--muted:#6B7280;--muted2:#9CA3AF;--line:#E5E7EB;--fill:#F8F9FA;--acc:#6B21A8;--acc2:#C4B5FD;--pos:#10B981;--tint:#ECFDF5;--b2:#6B7280;--b3:#D1D5DB;--b4:#F3F4F6;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B0812;--ink:#F3F4F6;--body:#D1D5DB;--muted:#9CA3AF;--muted2:#6B7280;--line:#262233;--fill:#15111F;--acc:#C4B5FD;--tint:#0B2A20;--b2:#9CA3AF;--b3:#4B4560;--b4:#262233}}
+:root[data-theme="dark"]{--bg:#0B0812;--ink:#F3F4F6;--body:#D1D5DB;--muted:#9CA3AF;--muted2:#6B7280;--line:#262233;--fill:#15111F;--acc:#C4B5FD;--tint:#0B2A20;--b2:#9CA3AF;--b3:#4B4560;--b4:#262233}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;line-height:1.45;-webkit-font-smoothing:antialiased}
+.page{max-width:1120px;margin:0 auto}
+.mono{font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:10.5px}
+.data{font-family:"JetBrains Mono","Roboto Mono",Consolas,monospace}
+header{position:relative;overflow:hidden;color:#FFFFFF;padding:30px 40px 34px;background:radial-gradient(700px 420px at 88% 0%,rgba(91,33,182,.55),transparent 65%),radial-gradient(520px 360px at 0% 100%,rgba(29,78,216,.28),transparent 65%),#07040E}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.top img{height:18px;width:auto;display:block}
+.top .data{font-size:11px;color:#9CA3AF}
+.hgrid{display:grid;grid-template-columns:1.3fr 1fr;gap:36px;margin-top:26px;align-items:start}
+.eyebrow{color:#C4B5FD}
+header h1{font-size:32px;line-height:1.12;margin:10px 0 12px;font-weight:700;letter-spacing:-.015em}
+.lede{color:#D1D5DB;font-size:14px;margin:0;max-width:62ch}
+.hero{display:grid;grid-template-columns:1fr 1fr;column-gap:24px;margin-top:22px}
+.hero div{padding:14px 0;border-top:1px solid rgba(255,255,255,.12)}
+.hero b{display:block;font-size:34px;line-height:1;font-weight:700;letter-spacing:-.02em;white-space:nowrap}
+.hero span{display:block;margin-top:7px;color:#9CA3AF;font-size:12px}
+.syn{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:22px 22px 18px;backdrop-filter:blur(6px)}
+.syn .mono{color:#C4B5FD}
+.syn dl{margin:12px 0 0;display:grid;grid-template-columns:auto 1fr;column-gap:16px}
+.syn dt{font-weight:700;font-size:12.5px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.syn dd{margin:0;font-size:12.5px;color:#D1D5DB;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.score{display:flex;align-items:baseline;gap:8px;margin-top:16px;padding-top:14px;border-top:2px solid rgba(255,255,255,.85)}
+.score b{font-size:58px;line-height:1;color:#10B981;font-weight:800;letter-spacing:-.03em}
+.score i{font-style:normal;font-size:18px;font-weight:700}
+.score span{font-size:12.5px;color:#D1D5DB;margin-left:6px;line-height:1.3}
+.syn p{margin:10px 0 0;font-size:12.5px;color:#E5E7EB}
+.syn p.gap{padding-top:10px;border-top:1px solid rgba(255,255,255,.1);color:#D1D5DB}
+.syn p.gap b{color:#FFFFFF}
+.syn p.fine{font-size:11px;color:#9CA3AF}
+main{padding:6px 40px 16px}
+section{padding:22px 0;border-bottom:1px solid var(--line)}
+section:last-child{border-bottom:0}
+.sh{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:14px;flex-wrap:wrap}
+.sh h2{margin:0;font-size:18px;letter-spacing:-.01em}
+.sh .mono{color:var(--acc)}
+.tl{position:relative;display:grid;grid-template-columns:repeat(10,1fr);margin-top:6px}
+.tl::before{content:"";position:absolute;left:0;right:0;top:7px;height:2px;background:var(--ink)}
+.tl .m{position:relative;padding:22px 8px 0 0}
+.tl .m::before{content:"";position:absolute;top:1px;left:0;width:10px;height:10px;border:2px solid var(--ink);background:var(--ink);border-radius:50%}
+.tl .m.win::before{background:var(--pos);border-color:var(--pos)}
+.tl .d{font-family:"JetBrains Mono","Roboto Mono",Consolas,monospace;font-size:10.5px;color:var(--muted)}
+.tl .t{font-weight:700;font-size:12px;margin-top:3px;line-height:1.25}
+.tl .s{font-size:11px;color:var(--muted);margin-top:3px;line-height:1.3}
+.phase{display:grid;grid-template-columns:6fr 2fr 2fr;gap:0 8px;margin-top:12px;font-size:11px;color:var(--muted)}
+.phase div{border-top:1px solid var(--line);padding-top:5px}
+.ctas{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.cta{border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:8px;color:var(--ink);text-decoration:none;background:var(--bg);transition:border-color .15s}
+.cta .mono{color:var(--acc)}
+.cta h3{margin:0;font-size:14px}
+.cta p{margin:0;font-size:12px;color:var(--muted);flex:1}
+.cta .btn{align-self:flex-start;background:var(--ink);color:var(--bg);font-weight:700;font-size:12px;padding:8px 14px;margin-top:4px;border-radius:8px}
+.cta:hover,.cta:focus-visible{border-color:var(--acc)}
+.cta:hover .btn,.cta:focus-visible .btn{background:var(--acc);color:#FFFFFF}
+.cta:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.streams{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.stream{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--fill)}
+.stream .mono{color:var(--acc)}
+.stream h3{margin:6px 0 12px;font-size:14px}
+.kv{display:grid;grid-template-columns:auto 1fr;column-gap:10px;row-gap:6px;align-items:baseline}
+.kv b{font-size:20px;line-height:1;text-align:right;font-weight:700;min-width:2.4ch}
+.kv span{color:var(--muted);font-size:12px}
+.docs{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.docs .col{border-top:2px solid var(--ink);padding-top:8px}
+.docs .col .mono{color:var(--acc);display:block;margin-bottom:6px}
+.docs .col div{font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}
+.docs .col div:last-child{border-bottom:0}
+.docs .col small{color:var(--muted);font-size:10.5px;display:block}
+.effort{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.bar{display:flex;height:24px;margin:8px 0;border-radius:6px;overflow:hidden;background:var(--b4)}
+.bar i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted)}
+.legend em{font-style:normal;display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:-1px;border-radius:2px}
+.legend b{color:var(--ink)}
+.months{display:grid;grid-template-columns:repeat(3,1fr);margin-top:16px;border-top:1px solid var(--line)}
+.months div{padding:10px 12px 0 0}
+.months b{display:block;font-size:13px}
+.months span{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.hours{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:start;margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
+.hours .big b{display:block;font-size:44px;line-height:1;letter-spacing:-.02em}
+.hours .big span{display:block;font-size:12px;color:var(--muted);margin-top:6px;max-width:22ch}
+.hrow{display:grid;grid-template-columns:230px 1fr 52px;gap:10px;align-items:center;font-size:12px;padding:4px 0}
+.hrow .track{height:10px;background:var(--b4);border-radius:5px;overflow:hidden}
+.hrow .track i{display:block;height:100%;background:var(--ink);border-radius:5px}
+.hrow b{text-align:right;font-family:"JetBrains Mono","Roboto Mono",Consolas,monospace;font-size:11.5px}
+.hnote{font-size:11px;color:var(--muted);margin-top:8px}
+.qq{display:grid;grid-template-columns:1.25fr 1fr;gap:28px}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);border-top:2px solid var(--ink)}
+.nums div{padding:12px 12px 12px 0;border-bottom:1px solid var(--line)}
+.nums b{display:block;font-size:24px;line-height:1;letter-spacing:-.01em}
+.nums span{display:block;margin-top:6px;font-size:11.5px;color:var(--muted);line-height:1.3}
+.shift{margin:0;padding:0;list-style:none;border-top:2px solid var(--ink)}
+.shift li{padding:9px 0;border-bottom:1px solid var(--line)}
+.shift .from{color:var(--muted);font-size:12px}
+.shift .to{font-weight:700;font-size:13px;margin-top:2px}
+.status{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.pill{display:inline-block;background:var(--tint);color:var(--pos);font-weight:700;font-size:11px;padding:2px 7px;margin-right:6px;border-radius:999px;font-family:"JetBrains Mono","Roboto Mono",Consolas,monospace}
+.row{padding:8px 0;border-bottom:1px solid var(--line);font-size:12.5px}
+.row:last-child{border-bottom:0}
+footer{padding:16px 40px 26px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:#07040E;color:#9CA3AF}
+footer .mono{font-size:10px;color:#9CA3AF;font-weight:600;letter-spacing:.04em;text-transform:none}
+footer img{height:14px;width:auto;opacity:.9}
+@media (max-width:900px){header,main,footer{padding-left:20px;padding-right:20px}.hgrid{grid-template-columns:1fr}.streams,.ctas{grid-template-columns:1fr 1fr}.effort,.qq,.status{grid-template-columns:1fr}.docs{grid-template-columns:1fr 1fr}.tl{grid-template-columns:1fr 1fr;row-gap:14px}.tl::before,.phase{display:none}.hours{grid-template-columns:1fr}.hrow{grid-template-columns:130px 1fr 44px}header h1{font-size:25px}.hero b{font-size:28px}}
+@media (max-width:520px){.streams,.ctas{grid-template-columns:1fr}.hero{grid-template-columns:1fr}}
+@media print{@page{size:A4;margin:9mm}body{font-size:10px}header{padding:18px 22px}main{padding:0 22px}section{padding:11px 0}.hero b{font-size:24px}header h1{font-size:22px}.score b{font-size:40px}.nums b{font-size:18px}.kv b{font-size:16px}.hours .big b{font-size:30px}.cta .btn::after{content:" · " attr(data-url);font-weight:400}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body><div class="page">
+<header>
+  <div class="top"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAAWCAYAAABQfgeMAAAWfmNhQlgAABZ+anVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAAFlhqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBhOjlkNThhNGMyLTY4MjEtNDU1Yi05ZDJmLWVkNjUzZmU1MjBjYQAAAAOTanVtYgAAAClqdW1kYzJhcwARABCAAACqADibcQNjMnBhLmFzc2VydGlvbnMAAAAAuGp1bWIAAABEanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5pbmdyZWRpZW50LnYzAAAAABhjMnNoEnBgLVojB0yr6FEMlO/mcAAAAGxjYm9yo2lkYzpmb3JtYXRpaW1hZ2UvcG5namluc3RhbmNlSUR4LHhtcDppaWQ6NzdlYzZjZWEtZGMwNy00M2VlLWE3MDMtNjIwNGQyMGQ3YmM5bHJlbGF0aW9uc2hpcGhwYXJlbnRPZgAAAeJqdW1iAAAAQWp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuYWN0aW9ucy52MgAAAAAYYzJzaLJ4u8z6deY4JM7SWLh5WxwAAAGZY2JvcqJnYWN0aW9uc4KiZmFjdGlvbmtjMnBhLm9wZW5lZGpwYXJhbWV0ZXJzoWtpbmdyZWRpZW50c4GiY3VybHgtc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5pbmdyZWRpZW50LnYzZGhhc2hYINLsjDqgXvPyLCn+0HbXWDJauGmj4rPSSz9/1mYaPwiSpGZhY3Rpb254HWNvbS5hbnRocm9waWMuY2xhdWRlLnByb3ZpZGVkanBhcmFtZXRlcnOheB9jb20uYW50aHJvcGljLm9yaWdpbi1jb25maWRlbmNlZ3Vua25vd25rZGVzY3JpcHRpb254ZkNsYXVkZSBwcm92aWRlZCB0aGlzIGZpbGUgYXQgdGhlIHJlcXVlc3Qgb2YgYSB1c2VyIGFuZCBtYXkgaGF2ZSBjcmVhdGVkIG9yIG1vZGlmaWVkIHRoZSBmaWxlIGNvbnRlbnRzLm1zb2Z0d2FyZUFnZW50oWRuYW1lZkNsYXVkZXJhbGxBY3Rpb25zSW5jbHVkZWT1AAAAyGp1bWIAAABAanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5oYXNoLmRhdGEAAAAAGGMyc2hRYze5tGVm66VlS7Mv6D9RAAAAgGNib3KlY2FsZ2ZzaGEyNTZjcGFkTQAAAAAAAAAAAAAAAABkaGFzaFggMvU5QEMQbvJY8ViFcm+TD0dyeuSCa2spZo82wqj9CtdkbmFtZW5qdW1iZiBtYW5pZmVzdGpleGNsdXNpb25zgaJlc3RhcnQYIWZsZW5ndGgZFooAAAI+anVtYgAAACdqdW1kYzJjbAARABCAAACqADibcQNjMnBhLmNsYWltLnYyAAAAAg9jYm9ypWNhbGdmc2hhMjU2aXNpZ25hdHVyZXhNc2VsZiNqdW1iZj0vYzJwYS91cm46YzJwYTo5ZDU4YTRjMi02ODIxLTQ1NWItOWQyZi1lZDY1M2ZlNTIwY2EvYzJwYS5zaWduYXR1cmVqaW5zdGFuY2VJRHgseG1wOmlpZDoyMTBjMjliMy0yM2NkLTQzNmUtYjc0OS1jMThhNjY5YTMwYzdyY3JlYXRlZF9hc3NlcnRpb25zg6JjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg0uyMOqBe8/IsKf7QdtdYMlq4aaPis9JLP3/WZho/CJKiY3VybHgqc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5hY3Rpb25zLnYyZGhhc2hYIAvtK10DmDGcLGVetaQxCyZshJ7HMsLj9HL9Hmy9uinromN1cmx4KXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaGFzaC5kYXRhZGhhc2hYIITo2jxmnNOM1dvCbLIAJCimzlySfyxD1qanWgDFWIEgdGNsYWltX2dlbmVyYXRvcl9pbmZvo2RuYW1lb0FudGhyb3BpYyBGaWxlc2d2ZXJzaW9uZTEuMC4wa3NwZWNWZXJzaW9uZTIuNC4wAAAQOGp1bWIAAAAoanVtZGMyY3MAEQAQgAAAqgA4m3EDYzJwYS5zaWduYXR1cmUAAAAQCGNib3LShFkCEqIBJhghWQIKMIICBjCCAY2gAwIBAgIUQOWgCu7COdC+uIP6BkIFPWdVEwAwCgYIKoZIzj0EAwMwSTEXMBUGA1UEChMOQW50aHJvcGljLCBQQkMxLjAsBgNVBAMTJUFudGhyb3BpYyBDb250ZW50IENyZWRlbnRpYWxzIFJvb3QgQ0EwHhcNMjYwODA3MTg0MzU2WhcNMjgwODA2MTk0MzU2WjBEMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEpMCcGA1UEAxMgQW50aHJvcGljIENsYXVkZSBDb250ZW50IFNpZ25pbmcwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASYegpry1AYBRTVNL1CpTlbROnY3dey+UrsF9C3phYrATN3ZHf93Mo8RQN0KOUuOn19P4oWNFWe5n2/She9N7eTo1gwVjAOBgNVHQ8BAf8EBAMCB4AwFQYDVR0lBA4wDAYKKwYBBAGD6F4CATAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFM5R4gSBTmRbI/jjxM+aPpzB11zCMAoGCCqGSM49BAMDA2cAMGQCMDFzHRSeAXrSy1WOzkbhPZ6Km2wGTmZ/2gK18k8BQGXyqz88Rdrz6CTX9flAnYNVxgIwcF9c3fVhqmJKpi+UhasNUMko69cyX6STPfta3Q8EjyzDjzoyrol46FP6VFHhvUcJoWNwYWRZDZ4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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" alt="Caliber 3135"><span class="data">Webmotors · Resumo executivo de performance · 24/11/2026</span></div>
+  <div class="hgrid">
+    <div>
+      <div class="mono eyebrow">Webmotors · Performance</div>
+      <h1>Do diagnóstico à operação: estrutura Google aprovada, TikTok no ar e governança diária em 12 semanas</h1>
+      <p class="lede">Atualização do resumo de 23/10. O primeiro ciclo entregou auditoria, playbook e briefing. O segundo transformou o diagnóstico em estrutura de conta. O terceiro colocou a operação em rotina, com dashboards D-1 e log de otimizações com meta.</p>
+      <div class="hero">
+        <div><b>~750h</b><span>dedicadas desde 28/08 (estimativa)</span></div>
+        <div><b>42</b><span>dailies com ata e ações registradas</span></div>
+        <div><b>205</b><span>to-dos gerados e rastreados</span></div>
+        <div><b>19</b><span>auditorias e estudos produzidos</span></div>
+        <div><b>R$ 22,6M</b><span>em Comprar e Expansão analisados (jan–ago)</span></div>
+        <div><b>3 tiers</b><span>nova estrutura Google, aprovada em 14/10</span></div>
+      </div>
+    </div>
+    <aside class="syn" aria-label="Síntese do projeto">
+      <div class="mono">Síntese do projeto</div>
+      <dl>
+        <dt>Entregue</dt><dd>Auditoria de 4 contas e 19 estudos, playbook, estrutura Google aprovada com pacote do Editor e dashboards D-1</dd>
+        <dt>Em operação</dt><dd>TikTok Ads desde 01/10, campanhas de App e log de otimizações desde 18/11</dd>
+        <dt>Em aberto</dt><dd>Subida da estrutura e page feeds com o Martech; teste split no TikTok; app install iOS</dd>
+        <dt>Ponto de atenção</dt><dd>Inconsistências de tracking e falta de governança técnica limitam a qualidade dos sinais</dd>
+      </dl>
+      <div class="score"><b>8,7</b><i>/10</i><span>qualidade da execução<br>do projeto</span></div>
+      <p>Entrega e velocidade de um squad sênior dedicado: 42 dailies documentadas, 4 frentes entregues em 12 semanas, recomendações apoiadas em 30 referências oficiais do Google e mudanças já aplicadas na conta.</p>
+      <p class="gap"><b>O que separa o 8,7 do 10:</b> governança técnica de tracking. Valor de lead multiplicado por 3,14 no Google, cotação de lojista disparando como compra no TikTok, Adjust e Adobe divergentes e simulações de financiamento sem fonte oficial no Power BI.</p>
+      <p class="fine">Média ponderada de entrega, rigor, aplicação na conta, ritmo, rastreabilidade e assiduidade. Autoavaliação do squad.</p>
+    </aside>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="sh"><h2>Evolução do projeto</h2><span class="mono">do primeiro contato a hoje</span></div>
+  <div class="tl">
+    <div class="m"><div class="d">28/08</div><div class="t">Primeiro contato</div><div class="s">Call de squad, escopo e governança</div></div>
+    <div class="m"><div class="d">03/09</div><div class="t">Kickoff e dailies</div><div class="s">Media Snapshot do ano e início das auditorias</div></div>
+    <div class="m"><div class="d">10/09</div><div class="t">Auditorias por conta</div><div class="s">Comprar, Expansão, Vender e Santander</div></div>
+    <div class="m win"><div class="d">16/09</div><div class="t">Primeira execução</div><div class="s">3 quick wins aplicados no Comprar</div></div>
+    <div class="m"><div class="d">21/09</div><div class="t">Crise de CPA</div><div class="s">Matriz de risco isola as causas</div></div>
+    <div class="m"><div class="d">26/09</div><div class="t">Playbook v1.0</div><div class="s">Handover ao time de mídia</div></div>
+    <div class="m win"><div class="d">01/10</div><div class="t">TikTok Ads no ar</div><div class="s">Briefing v3 e plano de outubro</div></div>
+    <div class="m"><div class="d">14/10</div><div class="t">Nova estrutura Google</div><div class="s">Search e PMax unificados em 3 tiers</div></div>
+    <div class="m"><div class="d">13/11</div><div class="t">Dashboards D-1</div><div class="s">Google e Adobe automatizados</div></div>
+    <div class="m win"><div class="d">18/11</div><div class="t">OPEC no ar</div><div class="s">Pacing e log de otimizações</div></div>
+  </div>
+  <div class="phase"><div>Diagnóstico · ago–set</div><div>Estrutura e expansão · out</div><div>Operação e governança · nov</div></div>
+</section>
+
+<section>
+  <div class="sh"><h2>Veja o detalhe do que foi feito</h2><span class="mono">4 ambientes vivos</span></div>
+  <div class="ctas">
+    <a class="cta" href="https://webmotors-performance-status.vercel.app/#2026-09-25" target="_blank" rel="noopener"><span class="mono">Acompanhamento</span><h3>Status de performance</h3><p>One-pager de status com leituras datadas das contas.</p><span class="btn" data-url="webmotors-performance-status.vercel.app">Abrir status</span></a>
+    <a class="cta" href="https://webmotors-live-performance-playbook-git-main-ads-performance.vercel.app/" target="_blank" rel="noopener"><span class="mono">Diagnóstico</span><h3>Playbook de operação</h3><p>45 itens com diagnóstico, ação e guardrail, regras, testes e rotinas.</p><span class="btn" data-url="webmotors-live-performance-playbook…vercel.app">Abrir playbook</span></a>
+    <a class="cta" href="https://google-ads-comprar-wm-ideal.vercel.app/" target="_blank" rel="noopener"><span class="mono">Estrutura</span><h3>Nova estrutura Google Ads</h3><p>Documento executivo v1.0 do fluxo Comprar: 3 tiers, page feeds e playbook.</p><span class="btn" data-url="google-ads-comprar-wm-ideal.vercel.app">Abrir estrutura</span></a>
+    <a class="cta" href="https://webmotors-tiktok-briefing.vercel.app/" target="_blank" rel="noopener"><span class="mono">Expansão</span><h3>Briefing TikTok</h3><p>Estratégia, editorias, produção, plano por time e roadmap.</p><span class="btn" data-url="webmotors-tiktok-briefing.vercel.app">Abrir briefing</span></a>
+  </div>
+</section>
+
+<section>
+  <div class="sh"><h2>Volume da entrega</h2><span class="mono">4 frentes · 01/09 a 30/11</span></div>
+  <div class="streams">
+    <div class="stream"><span class="mono">Frente 1</span><h3>Auditoria e diagnóstico</h3>
+      <div class="kv"><b>19</b><span>auditorias e estudos (16 concluídos)</span><b>4</b><span>contas Google priorizadas</span><b>14</b><span>contas de mídia mapeadas</span><b>242</b><span>dias de dados no snapshot do MCC</span></div></div>
+    <div class="stream"><span class="mono">Frente 2</span><h3>Playbook e estrutura</h3>
+      <div class="kv"><b>45</b><span>itens de playbook em 10 categorias</span><b>14</b><span>regras de ouro</span><b>3</b><span>tiers na nova estrutura Google</span><b>4</b><span>materiais de handover da estrutura</span></div></div>
+    <div class="stream"><span class="mono">Frente 3</span><h3>TikTok e novos canais</h3>
+      <div class="kv"><b>19</b><span>seções de estratégia e produção</span><b>26</b><span>tarefas no plano por time</span><b>10</b><span>contas no Business Center</span><b>1</b><span>proposta de programática (DV360)</span></div></div>
+    <div class="stream"><span class="mono">Frente 4</span><h3>Operação e governança</h3>
+      <div class="kv"><b>42</b><span>dailies documentadas</span><b>205</b><span>to-dos rastreados</span><b>13</b><span>marcos do squad</span><b>4</b><span>otimizações no log com meta</span></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="sh"><h2>Entregáveis</h2><span class="mono">19 auditorias e estudos · 6 ativos de estratégia e operação</span></div>
+  <div class="docs">
+    <div class="col"><span class="mono">Comprar</span><div>Search<small>04/09</small></div><div>Performance Max<small>02/09</small></div><div>Demand Gen<small>10/09</small></div><div>Vídeo<small>10/09</small></div><div>Brand e Search Lift<small>Mega Feirão · em revisão</small></div></div>
+    <div class="col"><span class="mono">Expansão · Vender</span><div>Expansão Search<small>08/09</small></div><div>Expansão PMax<small>03/09</small></div><div>Vender Search<small>09/09</small></div><div>Vender PMax<small>09/09</small></div><div>Vender Demand Gen<small>09/09</small></div></div>
+    <div class="col"><span class="mono">Santander</span><div>Search<small>10/09</small></div><div>Performance Max<small>10/09</small></div><div>Demand Gen<small>10/09</small></div></div>
+    <div class="col"><span class="mono">Transversais</span><div>Media Snapshot #1<small>MCC · 242 dias</small></div><div>UTMs e taxonomia<small>05/09</small></div><div>Feed Merchant Center<small>08/09</small></div><div>Estrutura de mídia ideal<small>14/09</small></div></div>
+    <div class="col"><span class="mono">Novos escopos</span><div>TikTok Ads · BC multi-conta<small>em andamento</small></div><div>Block Financiamento (site)<small>em andamento</small></div></div>
+    <div class="col"><span class="mono">Estratégia e operação</span><div>Matriz de risco de CPA<small>21/09</small></div><div>Playbook v1.0<small>26/09</small></div><div>Briefing TikTok v3<small>29/09</small></div><div>Estrutura Google v1.0<small>13/10</small></div><div>Dashboards D-1<small>13/11</small></div><div>OPEC<small>18/11</small></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="sh"><h2>Esforço e execução</h2><span class="mono">to-dos e dailies no Notion · até 19/11</span></div>
+  <div class="effort">
+    <div>
+      <div class="mono" style="color:var(--muted)">205 to-dos por status</div>
+      <div class="bar" role="img" aria-label="26 feitos, 40 em andamento ou teste, 137 a fazer, 2 sem status">
+        <i style="width:12.7%;background:var(--pos)"></i><i style="width:19.5%;background:var(--ink)"></i><i style="width:66.8%;background:var(--b3)"></i><i style="width:1%;background:var(--b4)"></i></div>
+      <div class="legend"><span><em style="background:var(--pos)"></em><b>26</b> feitos</span><span><em style="background:var(--ink)"></em><b>40</b> em andamento</span><span><em style="background:var(--b3)"></em><b>137</b> no backlog</span><span><em style="background:var(--b4);border:1px solid var(--line)"></em><b>2</b> sem status</span></div>
+    </div>
+    <div>
+      <div class="mono" style="color:var(--muted)">205 to-dos por vertente</div>
+      <div class="bar" role="img" aria-label="107 estratégia, 75 tracking, 10 auditoria, 13 outros">
+        <i style="width:52.2%;background:var(--ink)"></i><i style="width:36.6%;background:var(--b2)"></i><i style="width:4.9%;background:var(--b3)"></i><i style="width:6.3%;background:var(--b4)"></i></div>
+      <div class="legend"><span><em style="background:var(--ink)"></em><b>107</b> estratégia</span><span><em style="background:var(--b2)"></em><b>75</b> tracking</span><span><em style="background:var(--b3)"></em><b>10</b> auditoria</span><span><em style="background:var(--b4);border:1px solid var(--line)"></em><b>13</b> outros</span></div>
+    </div>
+  </div>
+  <div class="months">
+    <div><b>Setembro</b><span>15 dailies · 57 to-dos criados</span></div>
+    <div><b>Outubro</b><span>17 dailies · 79 to-dos criados</span></div>
+    <div><b>Novembro, até 16/11</b><span>10 dailies · 69 to-dos criados</span></div>
+  </div>
+  <div class="hours">
+    <div class="big"><b>~750h</b><span>estimadas em 12 semanas, faixa de 600h a 900h</span></div>
+    <div>
+      <div class="hrow"><span>19 auditorias e estudos</span><div class="track"><i style="width:100%"></i></div><b>190h</b></div>
+      <div class="hrow"><span>Execução de to-dos (66 feitos ou em curso)</span><div class="track"><i style="width:68%"></i></div><b>130h</b></div>
+      <div class="hrow"><span>42 dailies: participação e atas</span><div class="track"><i style="width:61%"></i></div><b>115h</b></div>
+      <div class="hrow"><span>TikTok: briefing, roadmap e operação</span><div class="track"><i style="width:56%"></i></div><b>106h</b></div>
+      <div class="hrow"><span>Playbook de operação</span><div class="track"><i style="width:37%"></i></div><b>70h</b></div>
+      <div class="hrow"><span>Nova estrutura Google</span><div class="track"><i style="width:32%"></i></div><b>60h</b></div>
+      <div class="hrow"><span>Gestão, propostas e apresentações</span><div class="track"><i style="width:25%"></i></div><b>48h</b></div>
+      <div class="hrow"><span>Dashboards e OPEC</span><div class="track"><i style="width:16%"></i></div><b>30h</b></div>
+      <div class="hnote">Base: ~10h por auditoria, ~2h por to-do executado, ~45 min por daily para 3 pessoas mais registro, ~6h por semana de operação TikTok. Equivale a cerca de 1,6 pessoa em tempo integral desde 28/08.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="qq">
+    <div>
+      <div class="sh"><h2>Resumo quantitativo</h2><span class="mono">o que os dados mostraram</span></div>
+      <div class="nums">
+        <div><b>~1,5M</b><span>conversões em Comprar e Expansão de jan a ago, em 14 campanhas ativas</span></div>
+        <div><b>59% · 47%</b><span>da verba e das conversões concentradas em SP (tier 1)</span></div>
+        <div><b>R$ 9,23</b><span>CPA do tier 3, contra R$ 17,52 em SP</span></div>
+        <div><b>+47,8%</b><span>orçamento do Comprar em 3 ciclos, gatilho da alta de CPA de setembro</span></div>
+        <div><b>40,31%</b><span>perda de impression share por rank no Search do Comprar</span></div>
+        <div><b>65–73%</b><span>das conversões da Expansão são simulação, não proposta</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="sh"><h2>Resumo qualitativo</h2><span class="mono">o que mudou</span></div>
+      <ul class="shift">
+        <li><div class="from">Ajustes simultâneos e reativos</div><div class="to">Uma alavanca por vez, com meta e janela de avaliação</div></li>
+        <li><div class="from">14 campanhas com metas diversas</div><div class="to">Estrutura unificada em 3 tiers por volume e CPA</div></li>
+        <li><div class="from">Mudanças sem registro</div><div class="to">OPEC com esperado contra realizado</div></li>
+        <li><div class="from">Relatórios lentos no Data Studio</div><div class="to">Painéis nativos e dashboards D-1</div></li>
+        <li><div class="from">Google Ads como canal único</div><div class="to">TikTok no ar, app e programática no plano</div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="status">
+    <div>
+      <div class="sh"><h2>Já entregue na conta</h2></div>
+      <div class="row"><span class="pill">16/09</span>Comprar: segmentação em Presença, DSA em português, Display fora do Search</div>
+      <div class="row"><span class="pill">01/10</span>TikTok Ads no ar em SP e Nacional</div>
+      <div class="row"><span class="pill">14/10</span>Estrutura Google entregue: one-pager, vídeo, Miro e playbook</div>
+      <div class="row"><span class="pill">13/11</span>Dashboards de Google e Adobe com atualização diária</div>
+      <div class="row"><span class="pill">18/11</span>OPEC no ar e 4 otimizações aplicadas em App e TikTok</div>
+    </div>
+    <div>
+      <div class="sh"><h2>Decisões que destravam a próxima fase</h2></div>
+      <div class="row">Subir a estrutura unificada e os page feeds (requisitos com o Martech)</div>
+      <div class="row">Aprovar o teste split de criativos no TikTok (16 a 30/11)</div>
+      <div class="row">Definir o teste de app install na Apple Store</div>
+      <div class="row">Avaliar a proposta de programática via DV360</div>
+      <div class="row">Fechar a conversão primária após a sazonalidade de janeiro</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span class="mono">Fontes: Notion Webmotors (auditorias, to-dos, dailies, OPEC) até 19/11 · Playbook v1.0 · Briefing TikTok v3 · Estrutura Google v1.0. Horas estimadas por volume entregue.</span>
+  <span class="mono" style="display:flex;align-items:center;gap:10px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAAWCAYAAABQfgeMAAAWfmNhQlgAABZ+anVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAAFlhqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBhOjlkNThhNGMyLTY4MjEtNDU1Yi05ZDJmLWVkNjUzZmU1MjBjYQAAAAOTanVtYgAAAClqdW1kYzJhcwARABCAAACqADibcQNjMnBhLmFzc2VydGlvbnMAAAAAuGp1bWIAAABEanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5pbmdyZWRpZW50LnYzAAAAABhjMnNoEnBgLVojB0yr6FEMlO/mcAAAAGxjYm9yo2lkYzpmb3JtYXRpaW1hZ2UvcG5namluc3RhbmNlSUR4LHhtcDppaWQ6NzdlYzZjZWEtZGMwNy00M2VlLWE3MDMtNjIwNGQyMGQ3YmM5bHJlbGF0aW9uc2hpcGhwYXJlbnRPZgAAAeJqdW1iAAAAQWp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuYWN0aW9ucy52MgAAAAAYYzJzaLJ4u8z6deY4JM7SWLh5WxwAAAGZY2JvcqJnYWN0aW9uc4KiZmFjdGlvbmtjMnBhLm9wZW5lZGpwYXJhbWV0ZXJzoWtpbmdyZWRpZW50c4GiY3VybHgtc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5pbmdyZWRpZW50LnYzZGhhc2hYINLsjDqgXvPyLCn+0HbXWDJauGmj4rPSSz9/1mYaPwiSpGZhY3Rpb254HWNvbS5hbnRocm9waWMuY2xhdWRlLnByb3ZpZGVkanBhcmFtZXRlcnOheB9jb20uYW50aHJvcGljLm9yaWdpbi1jb25maWRlbmNlZ3Vua25vd25rZGVzY3JpcHRpb254ZkNsYXVkZSBwcm92aWRlZCB0aGlzIGZpbGUgYXQgdGhlIHJlcXVlc3Qgb2YgYSB1c2VyIGFuZCBtYXkgaGF2ZSBjcmVhdGVkIG9yIG1vZGlmaWVkIHRoZSBmaWxlIGNvbnRlbnRzLm1zb2Z0d2FyZUFnZW50oWRuYW1lZkNsYXVkZXJhbGxBY3Rpb25zSW5jbHVkZWT1AAAAyGp1bWIAAABAanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5oYXNoLmRhdGEAAAAAGGMyc2hRYze5tGVm66VlS7Mv6D9RAAAAgGNib3KlY2FsZ2ZzaGEyNTZjcGFkTQAAAAAAAAAAAAAAAABkaGFzaFggMvU5QEMQbvJY8ViFcm+TD0dyeuSCa2spZo82wqj9CtdkbmFtZW5qdW1iZiBtYW5pZmVzdGpleGNsdXNpb25zgaJlc3RhcnQYIWZsZW5ndGgZFooAAAI+anVtYgAAACdqdW1kYzJjbAARABCAAACqADibcQNjMnBhLmNsYWltLnYyAAAAAg9jYm9ypWNhbGdmc2hhMjU2aXNpZ25hdHVyZXhNc2VsZiNqdW1iZj0vYzJwYS91cm46YzJwYTo5ZDU4YTRjMi02ODIxLTQ1NWItOWQyZi1lZDY1M2ZlNTIwY2EvYzJwYS5zaWduYXR1cmVqaW5zdGFuY2VJRHgseG1wOmlpZDoyMTBjMjliMy0yM2NkLTQzNmUtYjc0OS1jMThhNjY5YTMwYzdyY3JlYXRlZF9hc3NlcnRpb25zg6JjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg0uyMOqBe8/IsKf7QdtdYMlq4aaPis9JLP3/WZho/CJKiY3VybHgqc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5hY3Rpb25zLnYyZGhhc2hYIAvtK10DmDGcLGVetaQxCyZshJ7HMsLj9HL9Hmy9uinromN1cmx4KXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaGFzaC5kYXRhZGhhc2hYIITo2jxmnNOM1dvCbLIAJCimzlySfyxD1qanWgDFWIEgdGNsYWltX2dlbmVyYXRvcl9pbmZvo2RuYW1lb0FudGhyb3BpYyBGaWxlc2d2ZXJzaW9uZTEuMC4wa3NwZWNWZXJzaW9uZTIuNC4wAAAQOGp1bWIAAAAoanVtZGMyY3MAEQAQgAAAqgA4m3EDYzJwYS5zaWduYXR1cmUAAAAQCGNib3LShFkCEqIBJhghWQIKMIICBjCCAY2gAwIBAgIUQOWgCu7COdC+uIP6BkIFPWdVEwAwCgYIKoZIzj0EAwMwSTEXMBUGA1UEChMOQW50aHJvcGljLCBQQkMxLjAsBgNVBAMTJUFudGhyb3BpYyBDb250ZW50IENyZWRlbnRpYWxzIFJvb3QgQ0EwHhcNMjYwODA3MTg0MzU2WhcNMjgwODA2MTk0MzU2WjBEMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEpMCcGA1UEAxMgQW50aHJvcGljIENsYXVkZSBDb250ZW50IFNpZ25pbmcwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASYegpry1AYBRTVNL1CpTlbROnY3dey+UrsF9C3phYrATN3ZHf93Mo8RQN0KOUuOn19P4oWNFWe5n2/She9N7eTo1gwVjAOBgNVHQ8BAf8EBAMCB4AwFQYDVR0lBA4wDAYKKwYBBAGD6F4CATAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFM5R4gSBTmRbI/jjxM+aPpzB11zCMAoGCCqGSM49BAMDA2cAMGQCMDFzHRSeAXrSy1WOzkbhPZ6Km2wGTmZ/2gK18k8BQGXyqz88Rdrz6CTX9flAnYNVxgIwcF9c3fVhqmJKpi+UhasNUMko69cyX6STPfta3Q8EjyzDjzoyrol46FP6VFHhvUcJoWNwYWRZDZ4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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" alt="Caliber 3135"> Documento confidencial</span>
+</footer>
+</div></body></html>
